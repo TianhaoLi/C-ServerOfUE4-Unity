@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="TestWindows.cpp" />
+    <ClCompile Include="..\..\share\tinyxml\md5.cpp">
+      <Filter>share\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\share\tinyxml\tinystr.cpp">
+      <Filter>share\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\share\tinyxml\tinyxml.cpp">
+      <Filter>share\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\share\tinyxml\tinyxmlerror.cpp">
+      <Filter>share\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\share\tinyxml\tinyxmlparser.cpp">
+      <Filter>share\tinyxml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="share">
+      <UniqueIdentifier>{9edeefdd-4426-42e7-8b4f-fc827822610a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="share\tinyxml">
+      <UniqueIdentifier>{f541ecaa-b92e-4781-8f59-746acc32b341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{c030c67f-19b7-4e00-8250-c970ce7aa11d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\share\tinyxml\md5.h">
+      <Filter>share\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\share\tinyxml\tinystr.h">
+      <Filter>share\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\share\tinyxml\tinyxml.h">
+      <Filter>share\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\engine\IDefine.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
